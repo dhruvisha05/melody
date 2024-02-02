@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Work+Sans&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+/* ====================== */
+.container{
+  width: 1140px;
+  margin: auto;
+}
+.flex{
+  display: flex;
+}
+.space{
+  padding: 60px 0px;
+}
+/* ==============================top header start==================== */
+
+.tophd img{
+  height: 45px; 
+  margin-top: 40px;
+}
+.top_hd{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.icon1{
+  display: flex;
+  padding-top: 30px;
+}
+.icon1 a{
+  color: #C5A15B;
+  padding: 15px;
+  border: rgba(128, 128, 128,0.2) solid 1px;
+  border-radius: 50%;
+  font-size: 19px;
+}
+.icon{
+  padding-top: 15px;
+}
+.icon1 ul li{
+  color:rgba(128, 128, 128,0.4) ;
+  font-family: Work Sans;
+  font-weight: 100;
+  padding-top: 7px;
+  padding-left: 10px;
+  margin-top:0px ;
+}
+.top_hd .btn1 a{
+  /* background-color: #C5A15B; */
+  padding: 15px 30px;
+  border: solid black 1px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.btn1:hover a{
+  background-color: #C5A15B;
+  color: white;
+  transition: .5s;
+  border:#C5A15B 1px solid ;
+}
+.btn1{
+  padding-top: 10px;
+  margin-top: 35px;
+}
+
+/* ===============================top header end====================== */
+
+/* ===================================navbar start======================= */
+
+.nav{
+  background-color: #2B2B2B;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.menu{
+  display: flex;
+  padding: 20px;
+}
+.menu a{
+  color: white;
+  padding-right: 70px;
+  font-weight: 600;
+}
+.menu li span{
+  color: gray;
+}
+.menu a:hover{
+  color:#C5A15B ;
+  cursor: pointer;
+}
+.right_nav a{
+  color: white;
+  font-size: 18px;
+}
+.right_nav > a:hover{
+  color: #C5A15B;
+  
+}
+.right_nav{
+  padding-top: 20px;
+}
+/* ====================================navbar end========================== */
+.slider img{
+  width: 100%;
+}
+.slider img{
+  position: relative;
+}
+.slider_info{
+  position: absolute;
+  top: 250px;
+  left: 80px;
+  width: 30%;
+}
+.sl_hd{
+  width: 40%;
+}
+.slider_info .sl_hd,.sl_hd2{
+  font-size: 100px;
+  padding-bottom: 0px;
+  color: white;
+  font-weight: 600;
+}
+.slider_info i{
+  padding-left: 10px;
+  color: rgba(167, 163, 163, 0.9);
+}
+.sl_btn a{
+  padding: 20px 40px;
+  background-color: #C5A15B;
+  border-radius: 5px;
+}
+.sl_btn{
+  margin-top: 25px;
+}
+.sl_btn:hover > a{
+  color: white;
+  background-color: #6A5325;
+  transition: .3s;
+  cursor: pointer;
+}
+/* =========================section 1 start================================ */
+.sec_1 .first_sec{
+  width: 50%;
+}
+.second_sec{
+  width: 50%;
+  padding-left: 120px;
+}
+.second_sec h1{
+  font-size: 35px;
+  color: rgb(51, 50, 50);
+}
+.second_sec p{
+  padding-top: 20px;
+  color: rgba(128, 128, 128,0.9);
+  line-height: 25px;
+}
+.sec_1{
+  display: flex;
+}
+.second_sec .btn2{
+  padding-top: 60px;
+}
+.second_sec .btn2 a{
+  /* border: 2px solid black; */
+  background-color: #C5A15B;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 5px;
+}
+.btn2:hover > a{
+  background-color: #6A5325;
+  transition: .3s;
+  cursor: pointer;
+}
+/* ============================section 2 start=============================== */
+.sec_2{
+  background-color:#F5F6FA ;
+}
+.sec2_heading h1{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.sec2_item{
+  display: flex;
+}
+.sec2_item .item1{
+
+  /* background-color: black; */
+  margin: 10px;
+}
+.blog1{
+  padding: 40px;
+}
+.blog1 a{
+  font-size: 60px;
+  padding: 15px 20px;
+  padding-bottom: 10px;
+  border: rgba(128, 128, 128,0.4) solid 1px;
+  border-radius: 50%;
+  margin-top: 10px;
+  color:#C5A15B ;
+  margin-left: 90px;
+}
+.blog1 a:hover{
+  background-color: #C5A15B;
+  border: none;
+  color: white;
+  transition: .2s;
+}
+.sec2_item .blog1 h3{
+  text-align: center;
+  padding-top: 40px;
+  letter-spacing: 1px;
+
+}
+.blog1 p{
+  text-align: center;
+  padding-top: 20px;
+  color: rgba(128, 128, 128,0.9);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+
+/* ================================section 2 end================================ */
+
+/* =================================section 3 start============================== */
+.sec3_heading h1{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.sec3_heading p{
+  text-align: center;
+  padding: 0px 100px;
+  letter-spacing: 0.5px;
+  color: rgba(128, 128, 128,0.9);
+  font-size: 18px;
+  font-weight: 300;
+}
+.sec3_img{
+  display: flex;
+  padding-top: 90px;
+}
+.sec3_img img:hover{
+  opacity: 50%;
+  transition: .2s;
+}
+.sec_img{
+  margin: 0px 10px;
+}
+.sec3_img h2{
+  color: rgba(35, 35, 35, 0.9);
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+/* ==================================section 3 end============================= */
+
+/* =====================================section 4 start parallex================= */
+.parallex{
+  background-image: url(./image/parallax1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+
+  /* height: 35vh; */
+  opacity: 90%;
+}
+.sec4_info h1{
+  text-align: center;
+  padding-top: 2px;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+  color: white;
+}
+.sec4_info p{
+  text-align: center;
+  padding: 40px 250px;
+  color: white;
+  font-weight: 300;
+}
+.btn3 a{
+    padding:20px 40px;
+    border-radius: 5px;
+    background-color: #C5A15B;
+}
+.btn3{
+  display: flex;
+  justify-content: center;
+}
+.btn3 a:hover{
+  color: white;
+  background-color: #6A5325;
+}
+/* =====================================section 4 end parallex================= */
+
+/* ====================================section 5 strat testimonial================ */
+.sec5{
+  margin: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.sec5_item{
+  display: flex;
+}
+.sec5_img img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.sec5img_info{
+  padding-left: 20px;
+}
+.sec5img_info h4{
+  font-size: 20px;
+  font-weight: 400;
+  color: #C5A15B;
+  letter-spacing: 1px;
+}
+.sec5img_info p{
+  font-size: 17px;
+  color:rgba(128, 128, 128,0.7);
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.sec5_info > p{
+  padding:20px 0px;
+  padding-right: 40px;
+  letter-spacing: 1px;
+  line-height: 23px;
+  color:rgba(128, 128, 128,0.7);
+  font-weight: 400;
+}
+
+/* ====================================section 5 end testimonial================ */
+
+/* ====================================section 6 start parallex2================== */
+.sec6_info h1{
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+}
+.sec6_info > p{
+  text-align: center;
+  padding: 0px 150px;
+  color:white;
+  line-height: 27px;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+}
+.parallex2{
+  background-image: url(./image/parallax2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+}
+.sec6{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.sec6_info2{
+  padding-top: 50px;
+}
+.sec6_info2 a{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  padding-left: 70px;
+}
+.sec6_info2 h1{
+  padding-top: 30px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+.sec6_info2 > p{
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    font-weight: 200;
+}
+/* ====================================section 6 end parallex2================== */
+
+/* =======================================section 7 start====================== */
+.sec7_heading h1{
+  text-align: center;
+  font-size: 35px;
+  padding: 20px 0px;
+}
+.sec7_info{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.sec7_img img{
+  padding-bottom: 20px;
+}
+.sec7_img img:hover{
+  opacity: 50%;
+  transition: .2s;
+}
+.sec7_img a{
+  letter-spacing: 1px;
+  color: #C5A15B;
+  font-size: 20px;
+}
+.sec7_img a:hover{
+  color: #2B2B2B;
+  cursor: pointer;
+  transition: .2s;
+}
+.sec7_img p{
+  padding-top: 7px;
+  letter-spacing: 0.5px;
+  font-size: 17px;
+  color:rgba(128, 128, 128,0.9);
+  font-weight: 300;
+}
+
+/* =======================================section 7 end====================== */
+
+/* ===================================section 8 start========================== */
+.sec_8{
+  background-color: #262626;
+}
+.sec8{
+  display: flex;
+  justify-content: center;
+}
+.sec8 p{
+  padding-right: 20px;
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+}
+.btn4 a{
+  padding:20px 40px;
+  border-radius: 5px;
+  background-color: #C5A15B;
+}
+.btn4 a:hover{
+color: white;
+background-color: #6A5325;
+transition: .2s;
+cursor: pointer;
+}
+/* ===================================section 8 end========================== */
+
+/* ======================================section 9 start======================== */
+
+.sec9_heading h1{
+  font-size: 40px;
+  text-align: center;
+}
+.sec9_blog{
+  display: flex;
+}
+.sec_9{
+  margin-right: 20px;
+  padding-top: 40px;
+}
+.sec9_blog_info{
+  display: flex;
+}
+.sec9_blog_info a{
+  padding:20px 0px;
+  padding-right: 30px;
+  /* border-right: 2px solid gray; */
+}
+.sec9_info h1{
+  color: #C5A15B;
+  font-size: 30px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.sec9_info a{
+  font-size: 15px;
+  color:rgba(41, 40, 40, 0.9);
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.sec9_info p{
+  color:rgba(128, 128, 128,0.9);
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+}
+.sec9 .btn1{
+  text-align: center;
+  padding: 30px 0px;
+}
+.sec9 .btn1 a{
+  padding: 15px 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.sec9 .btn1:hover > a{
+  background-color: #C5A15B;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+/* ========================================section 9 end========================= */
+
+/* ====================================section 10 start=========================== */
+.sec10{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.sec10 .border{
+  border-right: 1px solid rgba(128, 128, 128,0.5);
+}
+.sec10_item{
+  padding: 0px 120px;
+  border-left: 1px solid rgba(128, 128, 128,0.5);
+}
+.sec10_item a{
+  color: #C5A15B;
+  padding: 60px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.sec10_item > p{
+  margin-top: 10px;
+  padding-bottom: 2px;
+  color:rgba(128, 128, 128,0.9);
+  font-weight: 300;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+.sec10_item > p:hover{
+  color: #262626;
+  transition: .3s;
+  cursor: pointer;
+}
+/* ====================================section 10 end=========================== */
+
+/* =================================footer start================================= */
+.footer{
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.ft_clr{
+  background-color: #262626;
+}
+.ft_info {
+  display: flex;
+}
+.ft_item1,.ft_item2,.ft_item3{
+  width: 33.33%;
+}
+.ft_item1 h1,.ft_item2 h1,.ft_item3 h1{
+  color:rgba(128, 128, 128,0.8);
+}
+.ft_item1 p{
+  margin-right: 50px;
+  padding-top: 30px;
+  color:rgba(128, 128, 128,0.6);
+  letter-spacing: 0.5px;
+}
+.ft_item2{
+  margin-right: 50px;
+}
+
+.ft_item2 p{
+  padding-top: 20px;
+  color: white;
+  font-weight: 300;
+  line-height: 25px;
+  padding-bottom: 10px;
+}
+.ft_item2 a{
+  /* margin-top: 8px; */
+  color:rgba(128, 128, 128,0.6);
+}
+.ft_item2 p:hover{
+  opacity: 60%;
+  cursor: pointer;
+}
+.ft_img{
+  display: flex;
+}
+.ft_img img{
+  padding-right: 10px;
+  margin-top: 20px;
+}
+.ft_img img:hover{
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.footer_menu{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+.ft_menu{
+  display: flex;
+}
+.ft_menu li{
+  padding-right: 70px;
+  color:white; 
+}
+.ft_menu li:hover{
+  color: rgba(255, 255, 255,0.5);
+  cursor: pointer;
+  transition: .3s;
+}
+.footer_right a{
+  padding-right: 30px;
+  font-size: 20px;
+  color:rgba(128, 128, 128,0.6);
+}
+.footer_right > a:hover{
+  color: white;
+  cursor: pointer;
+  transition: .3s;
+}
+/* =={=================================footer end=================================== */
+/* =======================last footer start=========================== */
+.sd_ft{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-top: 1.5px solid gray;
+}
+.sd_ft_img img{
+  height: 50px;
+  width: 150px;
+  margin-left: 30px;
+}
+.sdfooter{
+  background-color: #262626;
+}
+.sd_ft p{
+  color:rgb(165, 160, 160);
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-top: 10px;
+}
+/* ======================last footer end=========================== */
+
+
+
+
+
+
